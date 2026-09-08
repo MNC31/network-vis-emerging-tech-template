@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Cite the original SceneFun3D paper and the pinned Hugging Face conversion when using the 3D data."
+title: "INFOSCI 301 Week 3: Evidence in Space teaching template"
+type: software
+version: 1.0.0
+date-released: 2026-09-08
+license: MIT
+authors:
+  - name: "INFOSCI 301 teaching contributors"
+references:
+  - type: conference-paper
+    title: "SceneFun3D: Fine-Grained Functionality and Affordance Understanding in 3D Scenes"
+    year: 2024
+    conference:
+      name: "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    authors:
+      - family-names: Delitzas
+        given-names: Alexandros
+      - family-names: Takmaz
+        given-names: Ayça
+      - family-names: Tombari
+        given-names: Federico
+      - family-names: Sumner
+        given-names: Robert W.
+      - family-names: Pollefeys
+        given-names: Marc
+      - family-names: Engelmann
+        given-names: Francis
+    url: "https://scenefun3d.github.io/"
+  - type: data
+    title: "Voxel51/SceneFun3D — revision 76803371aae67277cfa0cc29804db2368c6756ce"
+    authors:
+      - name: Voxel51
+    url: "https://huggingface.co/datasets/Voxel51/SceneFun3D"
+    license: CC-BY-NC-SA-4.0
